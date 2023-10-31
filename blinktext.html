@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta charset="utf-8">
+  <script>
+    function blink_text() {
+    $('.blink').fadeOut(1000);
+    $('.blink').fadeIn(1000);
+}
+setInterval(blink_text, 1000);
+
+  </script>
+  <title>Blink text using jQuery</title>
+</head>
+<body>
+  <p>I am  <span class="blink">AKPAL.</span> Course mca</p>
+</body>
+</html>
